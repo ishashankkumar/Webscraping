@@ -1,6 +1,6 @@
 #login using Selenium Webdriver
 
-# Usage :- python git_ui_login.py 
+# Usage :- python git_ui_login.py <username>
 
 import sys
 from getpass import getpass
@@ -24,8 +24,8 @@ class GitUiLogin(object):
 if __name__=='__main__':
   username= sys.argv[1]
   assert (len(sys.argv) == 2), "Usage: python <script_name> <username>"
-  print "Enter password for user: %s" % username
-  password=getpass(prompt='Enter your password: ')
+  print "Enter Password for User: %s" % username
+  password=getpass('Password: ')
   
   if not password:
     raise Exception("Password not entered.")
