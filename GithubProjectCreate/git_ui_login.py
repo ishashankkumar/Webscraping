@@ -6,7 +6,7 @@ import sys
 from getpass import getpass
 from selenium import webdriver
 
-class UiGithubLogin(object):
+class GitUiLogin(object):
   
   def __init__(self, username, password):
     self.username=username
