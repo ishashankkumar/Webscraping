@@ -1,4 +1,4 @@
-#login using Selenium Webdriver
+# login using Selenium Webdriver
 
 # Usage :- python git_ui_login.py <username>
 
